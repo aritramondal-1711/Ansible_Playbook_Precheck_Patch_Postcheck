@@ -1,0 +1,6 @@
+- name: Creating Postchecks dir
+  file:
+    path: "{{ filepath }}/postchecks"
+    state: directory
+    owner: aritra
+    mode: 0700

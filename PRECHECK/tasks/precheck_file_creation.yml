@@ -1,0 +1,6 @@
+- name: Creating Precheck File
+  file:
+    path: "{{ filepath }}/prechecks/{{ ansible_hostname }}_{{ precheck_file }}"
+    state: touch
+    owner: aritra
+    mode: 0600

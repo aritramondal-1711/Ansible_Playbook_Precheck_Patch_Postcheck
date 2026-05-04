@@ -1,0 +1,4 @@
+---
+# vars file for PRECHECK
+filepath: /home/aritra/Documents/Patching/
+precheck_file: Precheck.txt

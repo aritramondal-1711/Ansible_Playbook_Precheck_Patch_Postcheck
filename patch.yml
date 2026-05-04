@@ -1,0 +1,9 @@
+---
+- name: OS Patch
+  hosts: Local
+  become: yes
+
+  roles:
+    - PRECHECK
+    - PATCH
+    - POSTCHECK

@@ -1,0 +1,6 @@
+---
+# tasks file for PATCH
+- name: Pating Ongoing
+  package:
+    name: "*"
+    state: latest

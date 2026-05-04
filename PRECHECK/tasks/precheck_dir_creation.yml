@@ -1,0 +1,6 @@
+- name: Creating Prechecks dir
+  file:
+    path: "{{ filepath }}/prechecks"
+    state: directory
+    owner: aritra
+    mode: 0700

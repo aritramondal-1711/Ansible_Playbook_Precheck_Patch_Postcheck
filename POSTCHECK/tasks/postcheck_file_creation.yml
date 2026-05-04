@@ -1,0 +1,6 @@
+- name: Creating Precheck File
+  file:
+    path: "{{ filepath }}/postchecks/{{ ansible_hostname }}_{{ postcheck_file }}"
+    state: touch
+    owner: aritra
+    mode: 0600

@@ -1,0 +1,6 @@
+---
+# tasks file for PRECHECK
+- include_tasks: postcheck_dir_creation.yml
+- include_tasks: postcheck_file_creation.yml
+- include_tasks: postcheck_run.yml
+- include_tasks: postcheck_save.yml

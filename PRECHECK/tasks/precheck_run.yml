@@ -1,0 +1,18 @@
+- name: Taking Prechecks
+  shell: "{{ item }}"
+  register: precheck_output
+  loop:
+  - echo "$(hostname)"
+  - echo "=========================================="
+  - echo "Uptime:- $(uptime)"
+  - echo "=========================================="
+  - echo "Filesystem utilization"
+  - df -h | grep -v tmpfs
+  - echo "=========================================="
+  - sar 1 5 | tail -n 1 | awk '{print "CPU UTilization:- " (100-$NF) "%" }'
+  - echo "=========================================="
+  - free | head -n 2 | awk 'NR>1{print "Memory Utilization :- " ($3/$2)*100 "%"}'
+  - echo "=========================================="
+  - echo "Active Services :- "
+  - systemctl list-units --state=running
+  - echo ""
