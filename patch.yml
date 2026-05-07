@@ -1,6 +1,6 @@
 ---
 - name: OS Patch
-  hosts: Local
+  hosts: vm
   become: yes
 
   roles:

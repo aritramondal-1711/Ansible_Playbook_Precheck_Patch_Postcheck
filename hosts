@@ -1,2 +1,5 @@
 [Local]
 arilaptop ansible_user=aritra
+
+[vm]
+20.84.112.109 ansible_user=aritra

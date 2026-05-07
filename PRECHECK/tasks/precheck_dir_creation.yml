@@ -4,3 +4,4 @@
     state: directory
     owner: aritra
     mode: 0700
+  delegate_to: localhost

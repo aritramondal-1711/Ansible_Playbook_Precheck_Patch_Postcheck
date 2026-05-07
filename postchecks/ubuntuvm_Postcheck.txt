@@ -1,0 +1,68 @@
+ubuntuvm
+==========================================
+Uptime:-  06:11:35 up 11 min,  1 user,  load average: 0.55, 0.33, 0.17
+==========================================
+Filesystem utilization
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root        29G  2.2G   27G   8% /
+/dev/loop0       64M   64M     0 100% /snap/core20/2769
+/dev/loop1       92M   92M     0 100% /snap/lxd/38688
+/dev/loop2       49M   49M     0 100% /snap/snapd/26382
+/dev/sda15      105M  6.1M   99M   6% /boot/efi
+/dev/sdb1        16G   28K   15G   1% /mnt
+/dev/loop3       50M   50M     0 100% /snap/snapd/26865
+/dev/loop4       74M   74M     0 100% /snap/core22/2411
+/dev/loop5       14M   14M     0 100% /snap/canonical-livepatch/406
+==========================================
+CPU UTilization:- 0.1%
+==========================================
+Memory Utilization :- 4.24789%
+==========================================
+Active Services :- 
+  UNIT                                                  LOAD   ACTIVE SUB     DESCRIPTION                                                          
+  proc-sys-fs-binfmt_misc.automount                     loaded active running Arbitrary Executable File Formats File System Automount Point        
+  init.scope                                            loaded active running System and Service Manager                                           
+  session-6.scope                                       loaded active running Session 6 of user aritra                                             
+  accounts-daemon.service                               loaded active running Accounts Service                                                     
+  atd.service                                           loaded active running Deferred execution scheduler                                         
+  chrony.service                                        loaded active running chrony, an NTP client/server                                         
+  cron.service                                          loaded active running Regular background program processing daemon                         
+  dbus.service                                          loaded active running D-Bus System Message Bus                                             
+  getty@tty1.service                                    loaded active running Getty on tty1                                                        
+  hv-kvp-daemon.service                                 loaded active running Hyper-V KVP Protocol Daemon                                          
+  irqbalance.service                                    loaded active running irqbalance daemon                                                    
+  ModemManager.service                                  loaded active running Modem Manager                                                        
+  multipathd.service                                    loaded active running Device-Mapper Multipath Device Controller                            
+  networkd-dispatcher.service                           loaded active running Dispatcher daemon for systemd-networkd                               
+  packagekit.service                                    loaded active running PackageKit Daemon                                                    
+  polkit.service                                        loaded active running Authorization Manager                                                
+  rsyslog.service                                       loaded active running System Logging Service                                               
+  serial-getty@ttyS0.service                            loaded active running Serial Getty on ttyS0                                                
+  snap.canonical-livepatch.canonical-livepatchd.service loaded active running Service for snap application canonical-livepatch.canonical-livepatchd
+  snapd.service                                         loaded active running Snap Daemon                                                          
+  ssh.service                                           loaded active running OpenBSD Secure Shell server                                          
+  systemd-journald.service                              loaded active running Journal Service                                                      
+  systemd-logind.service                                loaded active running Login Service                                                        
+  systemd-networkd.service                              loaded active running Network Service                                                      
+  systemd-resolved.service                              loaded active running Network Name Resolution                                              
+  systemd-udevd.service                                 loaded active running udev Kernel Device Manager                                           
+  udisks2.service                                       loaded active running Disk Manager                                                         
+  unattended-upgrades.service                           loaded active running Unattended Upgrades Shutdown                                         
+  user@1000.service                                     loaded active running User Manager for UID 1000                                            
+  walinuxagent.service                                  loaded active running Azure Linux Agent                                                    
+  dbus.socket                                           loaded active running D-Bus System Message Bus Socket                                      
+  multipathd.socket                                     loaded active running multipathd control socket                                            
+  snapd.socket                                          loaded active running Socket activation for snappy daemon                                  
+  syslog.socket                                         loaded active running Syslog Socket                                                        
+  systemd-journald-audit.socket                         loaded active running Journal Audit Socket                                                 
+  systemd-journald-dev-log.socket                       loaded active running Journal Socket (/dev/log)                                            
+  systemd-journald.socket                               loaded active running Journal Socket                                                       
+  systemd-networkd.socket                               loaded active running Network Service Netlink Socket                                       
+  systemd-udevd-control.socket                          loaded active running udev Control Socket                                                  
+  systemd-udevd-kernel.socket                           loaded active running udev Kernel Socket                                                   
+
+LOAD   = Reflects whether the unit definition was properly loaded.
+ACTIVE = The high-level unit activation state, i.e. generalization of SUB.
+SUB    = The low-level unit activation state, values depend on unit type.
+
+40 loaded units listed.

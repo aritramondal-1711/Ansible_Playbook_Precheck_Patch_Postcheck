@@ -2,3 +2,4 @@
   copy:
     content: "{{ precheck_output.results | map(attribute='stdout') | join('\n') }}"
     dest: "{{ filepath }}/prechecks/{{ ansible_hostname }}_{{ precheck_file }}"
+  delegate_to: localhost

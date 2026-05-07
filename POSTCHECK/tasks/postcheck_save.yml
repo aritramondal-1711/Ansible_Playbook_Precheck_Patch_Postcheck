@@ -2,3 +2,4 @@
   copy:
     content: "{{ postcheck_output.results | map(attribute='stdout') | join('\n') }}"
     dest: "{{ filepath }}/postchecks/{{ ansible_hostname }}_{{ postcheck_file }}"
+  delegate_to: localhost
